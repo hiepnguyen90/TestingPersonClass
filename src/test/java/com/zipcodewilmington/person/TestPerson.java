@@ -95,4 +95,137 @@ public class TestPerson {
         Integer actual = person.getAge();
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void testGetShoeSize() {
+        // Given
+        Person person = new Person();
+        Integer expected = 8;
+
+        // When
+        person.setShoeSize(expected);
+
+        // Then
+        Integer actual = person.getShoeSize();
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void testIsHasGlasses() {
+        // Given
+        Person person = new Person();
+        boolean expected = true;
+
+        // When
+        person.setHasGlasses(expected);
+
+        // Then
+        boolean actual = person.getHasGlasses();
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void testGetHeight() {
+        // Given
+        Person person = new Person();
+        Integer expected = 60;
+
+        // When
+        person.setHeight(expected);
+
+        // Then
+        Integer actual = person.getHeight();
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void testGetFingers() {
+        // Given
+        Person person = new Person();
+        Integer expected = 10;
+
+        // When
+        person.setFingers(expected);
+
+        // Then
+        Integer actual = person.getFingers();
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void testGetIq() {
+        // Given
+        Person person = new Person();
+        Integer expected = 5;
+
+        // When
+        person.setIq(expected);
+
+        // Then
+        Integer actual = person.getIq();
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void testSetShoeSize() {
+        Person person = new Person();
+        Integer expected = 8;
+
+        // When
+        person.setShoeSize(expected);
+
+        // Then
+        Integer actual = person.getShoeSize();
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void testSetHasGlasses() {
+        // Given
+        Person person = new Person();
+        boolean expected = true;
+
+        // When
+        person.setHasGlasses(expected);
+
+        // Then
+        boolean actual = person.getHasGlasses();
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void testSetHeight() {
+        // Given
+        Person person = new Person();
+        Integer expected = 60;
+
+        // When
+        person.setHeight(expected);
+
+        // Then
+        Integer actual = person.getHeight();
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void testSetFingers() {
+        // Given
+        Person person = new Person();
+        Integer expected = 10;
+
+        // When
+        person.setFingers(expected);
+
+        // Then
+        Integer actual = person.getFingers();
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void testSetIq() {
+        // Given
+        Person person = new Person();
+        Integer expected = 5;
+
+        // When
+        person.setIq(expected);
+
+        // Then
+        Integer actual = person.getIq();
+        Assert.assertEquals(expected, actual);
+    }
+
+
 }
+
